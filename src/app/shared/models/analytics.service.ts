@@ -68,10 +68,10 @@ export class AnalyticsService {
   getTopPages(): { page: string; views: number; bounce: string }[] {
     return [
       { page: '/home',        views: 14820, bounce: '38%' },
-      { page: '/products',    views: 9304, bounce: '42%' },
-      { page: '/pricing',     views: 6711, bounce: '29%' },
-      { page: '/blog',        views: 5230, bounce: '55%' },
-      { page: '/contact',     views: 3198, bounce: '61%' },
+      { page: '/products',    views:  9304, bounce: '42%' },
+      { page: '/pricing',     views:  6711, bounce: '29%' },
+      { page: '/blog',        views:  5230, bounce: '55%' },
+      { page: '/contact',     views:  3198, bounce: '61%' },
     ];
   }
 }

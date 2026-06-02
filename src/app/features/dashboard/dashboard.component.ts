@@ -12,8 +12,13 @@ import { RevenueChartComponent, TrafficChartComponent } from '../../components/c
   selector: 'app-dashboard-page',
   standalone: true,
   imports: [
-    MatCardModule, MatTableModule, MatChipsModule, DecimalPipe,
-    KpiCardsComponent, RevenueChartComponent, TrafficChartComponent,
+    MatCardModule,
+    MatTableModule,
+    MatChipsModule,
+    DecimalPipe,
+    KpiCardsComponent,
+    RevenueChartComponent,
+    TrafficChartComponent,
   ],
   template: `
     <div class="dashboard">
