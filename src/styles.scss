@@ -1,5 +1,21 @@
 @use '@angular/material' as mat;
+
+/* Define a basic light theme */
+$my-primary: mat.define-palette(mat.$indigo-palette);
+$my-accent:  mat.define-palette(mat.$pink-palette);
+$my-warn:    mat.define-palette(mat.$red-palette);
+
+$my-theme: mat.define-light-theme((
+  color: (
+    primary: $my-primary,
+    accent: $my-accent,
+    warn: $my-warn,
+  )
+));
+
+/* Apply core styles and the theme */
 @include mat.core();
+@include mat.all-component-themes($my-theme);
 
 html, body {
   height: 100%;
