@@ -1,0 +1,13 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
