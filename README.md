@@ -127,3 +127,14 @@ Open [http://localhost:4200](http://localhost:4200).
 ng build           # production
 ng build --watch   # development watch
 ```
+
+## Roadmap
+
+This is phase 1 of an ongoing build. Planned next phases:
+
+- **Branching strategy** — introduce feature branches, PR workflow, and branch protection rules to simulate a real team development process
+- **Backend API** — custom REST API (Node.js / .NET) to replace mock data, with auth endpoints and JWT handling
+- **NgRx state management** — introduce store, actions, reducers, and effects for scalable state across features
+- **Testing** — unit tests for services and components, e2e with Playwright
+- **CI/CD** — GitHub Actions pipeline for lint, test, and build on PR
+
