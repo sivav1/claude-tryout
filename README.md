@@ -1,6 +1,30 @@
 # Prism — Analytics Dashboard
 
-Angular 19 analytics dashboard with Angular Material, standalone components, lazy-loaded feature routes, and HTTP interceptors.
+An Angular 19 analytics dashboard built as a practical exploration of **AI-assisted development workflows** using [Aider](https://aider.chat) and open-source LLMs. The goal wasn't just to build a dashboard — it was to learn where AI genuinely accelerates development, and where it needs careful human oversight before anything ships.
+
+## Built with Aider AI
+
+This project was developed using a structured AI-assisted workflow throughout the SDLC — not just for autocomplete, but for architectural scaffolding, component generation, and iterative refinement.
+
+### How Aider was used
+
+| Phase | What AI did | What I owned |
+| --- | --- | --- |
+| **Project initialisation** | Generated the initial Angular scaffold, routing config, and environment setup from structured prompts | Reviewed all output, corrected module structure, validated conventions |
+| **Component generation** | Generated boilerplate for feature components, lazy routes, and shared directives | Ensured consistency with established patterns, refactored where AI missed context |
+| **Architecture scaffolding** | Proposed the core/features/shared separation and barrel export pattern | Made final architectural decisions, validated against Angular best practices |
+| **Styling** | Generated initial SCSS structure and Material theme config | Adjusted for accessibility and visual consistency |
+
+### Prompt engineering approach
+
+Prompts were structured to include:
+- Explicit constraints (standalone components only, no NgModules)
+- Existing conventions the AI needed to respect (naming, folder structure)
+- Expected output format to reduce post-generation cleanup
+
+Vague prompts produced generic, inconsistent code. Specific, constrained prompts produced output that required minimal rework. The git history reflects the iterative prompt → review → refine loop throughout.
+
+---
 
 ## Tech stack
 
